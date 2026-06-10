@@ -1,3 +1,4 @@
+<img width="1529" height="858" alt="Dashboard Screenshot" src="https://github.com/user-attachments/assets/ea68e2e9-adf4-4195-a900-dae0070e42c2" />
 # Amazon Product Performance Dashboard
 
 ## Project Overview
