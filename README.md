@@ -1,5 +1,27 @@
-<img width="1529" height="858" alt="Dashboard Screenshot" src="https://github.com/user-attachments/assets/ea68e2e9-adf4-4195-a900-dae0070e42c2" />
 # Amazon Product Performance Dashboard
+<img width="1529" height="858" alt="Dashboard Screenshot" src="https://github.com/user-attachments/assets/ea68e2e9-adf4-4195-a900-dae0070e42c2" />
+
+## Dataset Source
+
+Source: Amazon Product Dataset (Kaggle)
+
+Dataset Link: https://www.kaggle.com/datasets
+
+The dataset contains Amazon product information including:
+- Product Name
+- Category
+- Rating
+- Review Count
+- Actual Price
+- Discounted Price
+- Discount Percentage
+
+## Files Included
+
+- Amazon_Product_Performance_Dashboard.pbix (Power BI Dashboard)
+- Amazon_Product_Performance_Python.ipynb (Python Analysis)
+- sql_queries.sql (SQL Queries)
+- Dashboard Screenshot.png (Dashboard Preview)
 
 ## Project Overview
 
