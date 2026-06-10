@@ -1,0 +1,15 @@
+create database sanji;
+use sanji;
+show tables;
+RENAME TABLE `amazon_utf8.csv` TO amazon_utf8;
+SELECT *FROM amazon_utf8 LIMIT 10;
+SELECT COUNT(*) AS total_products FROM amazon_utf8;
+SELECT DISTINCT category FROM amazon_utf8;
+SELECT category,COUNT(*) AS total_products FROM amazon_utf8 GROUP BY category ORDER BY total_products DESC;
+SELECT product_name, rating FROM amazon_utf8 ORDER BY rating DESC LIMIT 10;
+SELECT product_name,rating_count FROM amazon_utf8 ORDER BY rating_count DESC LIMIT 10;
+SELECT AVG(rating) AS avg_rating FROM amazon_utf8;
+SELECT product_name,rating FROM amazon_utf8 WHERE rating > 4.5;
+SELECT product_name,discount_percentage FROM amazon_utf8 ORDER BY discount_percentage DESC LIMIT 10;
+SELECT category,COUNT(*) AS total_products FROM amazon_utf8 GROUP BY category ORDER BY total_products DESC LIMIT 5;
+SELECT COUNT(*) AS total_products,AVG(rating) AS average_rating, MAX(actual_price) AS highest_price, MIN(discounted_price) AS lowest_discount_price FROM amazon_utf8;
